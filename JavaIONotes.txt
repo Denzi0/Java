@@ -1,0 +1,41 @@
+I/O Construct
+
+Console base I/O
+
+Output: System.out.print
+	System.out.println
+
+Input:   Scanner (System.in)
+   
+   import java.util.*;  // defines Scanner
+   
+Example:
+	DT	     Scanner Type	
+	Boolean :   nextBoolean()
+	int	:   nextInt()
+	float	:   nextFloat();
+	double	:   nextDouble();
+        String  :   nextLine();
+	short	:   nextShort(); 
+	long	:   nextLong();
+
+    Input an integer:
+
+   int num1;
+ 
+   Scanner SC = new  Scanner(System.in);
+
+
+   System.out.println("Enter a number");
+
+   num1 = SC.nextInt();	  
+
+
+
+DialogWindow  I/O
+
+import javax.swing.JOptionPane;
+
+JOptionPane : showMessageDialog  (output)
+	    : showInputDialog (input) 
+ 		
