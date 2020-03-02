@@ -1,0 +1,8 @@
+Create a Program that will Generate a Ramdom number (1-50).
+Let the user guess the random number generated given 3 attempts 
+before the program reveals to correct generated number.
+User will be provided a hint by the program by prompting "higher" if the user number is less than the random number.
+and "lower" if the user number is greater than the random number.
+The program can be played several times (generating different random number) as long as the user wants to.
+
+
